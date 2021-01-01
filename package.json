@@ -1,0 +1,24 @@
+{
+  "name": "cookiestealer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "concurrently -k -n \"Victim,Attacker\" -p \"[{name}]\" -c \"blue,red\" \"php -S localhost:8000 -t ./victim\" \"php -S localhost:3000 -t ./attacker\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ange-Rodriguez/CookieStealer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ange-Rodriguez/CookieStealer/issues"
+  },
+  "homepage": "https://github.com/Ange-Rodriguez/CookieStealer#readme"
+}
