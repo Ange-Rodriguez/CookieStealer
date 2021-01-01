@@ -20,5 +20,7 @@
             </div>
         </div>
     </main>
+
+    <script src="./scripts/xss.min.js"></script>
 </body>
 </html>
