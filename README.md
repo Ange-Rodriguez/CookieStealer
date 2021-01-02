@@ -7,8 +7,6 @@
 This repository is just an example how to grab cookies through xss for educational purposes.
 </div>
 
----
-
 ## Disclamer
 I'm not responsible for your actions. The code provided here is for educational purpose only. If you find a web site with code injection vulnerability, inform them.
 
